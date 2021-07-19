@@ -21,4 +21,5 @@ with:
   who-to-greet: 'Mona the Octocat'
   
  ####
- action.yml file serves as an action metadata file. Defines inputs to pass into the docker container. 
+ action.yml file serves as an action metadata file. It defines the inputs and outputs and main
+ entrypoint for your action. 
