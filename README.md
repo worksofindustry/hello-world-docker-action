@@ -25,5 +25,5 @@ action.yml file serves as an action metadata file. It defines the inputs and out
 entrypoint for your action. 
 
 workflow files use action files, workflow files that use an action, uses the "with" keyword to set an input values. 
-
+Inputs specified in a workflow file, get created as an environment variable by GitHub, with the name ''INPUT_<VARIABLE_NAME>''.
 
