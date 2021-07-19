@@ -20,6 +20,10 @@ uses: actions/hello-world-docker-action@v1
 with:
   who-to-greet: 'Mona the Octocat'
   
- ####
- action.yml file serves as an action metadata file. It defines the inputs and outputs and main
- entrypoint for your action. 
+####
+action.yml file serves as an action metadata file. It defines the inputs and outputs and main
+entrypoint for your action. 
+
+workflow files use action files, workflow files that use an action, uses the "with" keyword to set an input values. 
+
+
